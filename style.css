@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url(./assets/justice.jpg) no-repeat center -1em / cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2922;
+    color: white;
+}
+
+/* === Navbar === */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+
+nav img {
+    width: 7em;
+}
+
+nav div a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: small;
+    display: inline-block;
+    color: white;
+}
+
+nav div a:hover {
+    transform: scale(1.1);
+}
+
+nav div a:last-child {
+    display: inline;
+    color: #a08f36;
+    border: 2px solid #a08f36;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* === Content === */
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-size: 5em;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #a7a7a7;
+}
