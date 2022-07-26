@@ -7,14 +7,15 @@
 }
 
 body {
-    background: url(./assets/justice.jpg) no-repeat center -1em / cover;
+
+    background: url(./assets/justice.jpg) no-repeat center 5.5em / cover;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #2b2922;
     color: white;
+    background-color: #2b2922;
 }
 
 /* === Navbar === */
@@ -56,7 +57,7 @@ nav div a:last-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 100px;
+    margin: 0px 100px;
     margin-bottom: 50px;
 }
 
